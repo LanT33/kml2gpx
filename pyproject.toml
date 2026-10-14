@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=38.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kml2gpx"
+version = "0.1.0"
+description = "Convert KML files to GPX 1.1 files (the reverse of gpx2kml)"
+readme = "README.md"
+requires-python = ">=3.6"
+license = { text = "MIT" }
+authors = [{ name = "kml2gpx contributors" }]
+keywords = ["kml", "gpx", "gps", "converter", "track"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: GIS",
+]
+
+[project.scripts]
+kml2gpx = "kml2gpx.cli:main"
+
+[tool.setuptools]
+packages = ["kml2gpx"]
