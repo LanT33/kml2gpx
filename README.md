@@ -1,6 +1,6 @@
 # kml2gpx
 
-用于转换地图轨迹文件格式.徒步真好玩
+用于转换地图轨迹文件格式.越野跑真好玩
 
 把 KML 文件转换成 GPX 1.1 文件的命令行 / 库工具，根据 [gpx2kml](https://github.com/shakaman/gpx2kml) 编写的反向版本。
 
